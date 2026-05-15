@@ -70,7 +70,7 @@ The following preprocessing steps were applied:
 # MLP Architecture
 
 ```text
-30 → 32 → 16 → 1
+30 => 32 => 16 => 1
 ```
 
 The model uses:
@@ -105,7 +105,7 @@ The model uses:
 
 Changed:
 ```python
-ReLU → Tanh
+ReLU => Tanh
 ```
 
 ## Results
@@ -122,13 +122,13 @@ ReLU → Tanh
 Changed architecture from:
 
 ```text
-30 → 32 → 16 → 1
+30 => 32 => 16 => 1
 ```
 
 to:
 
 ```text
-30 → 64 → 32 → 1
+30 => 64 => 32 => 1
 ```
 
 ## Results
@@ -196,12 +196,12 @@ Breast-Cancer-MLP-Project/
 │
 ├── Breast_Cancer_MLP_Project.ipynb
 ├── README.md
-├── requirements.txt
+│
 │
 ├── results/
 │   ├── loss_curve.png
 │   ├── accuracy_curve.png
-│   └── experiment_results.png
+│
 ```
 
 ---
